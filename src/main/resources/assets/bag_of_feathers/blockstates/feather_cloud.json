@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "bag_of_feathers:block/feather_cloud" }
+  }
+}

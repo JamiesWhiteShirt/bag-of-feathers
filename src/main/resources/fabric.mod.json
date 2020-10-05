@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "bag_of_feathers",
+  "version": "${version}",
+  "name": "Bag of Feathers",
+  "description": "Create a dense cloud of feathers as a temporary building surface, or just have a pillow fight.",
+  "authors": [
+    "JamiesWhiteShirt"
+  ],
+  "contact": {
+    "sources": "https://github.com/JamiesWhiteShirt/bag-of-feathers"
+  },
+  "license": "MIT",
+  "icon": "assets/bag_of_feathers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jamieswhiteshirt.bagoffeathers.BagOfFeathers"
+    ],
+    "client": [
+      "com.jamieswhiteshirt.bagoffeathers.client.BagOfFeathersClient"
+    ]
+  },
+  "mixins": [
+    "bag_of_feathers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*"
+  }
+}
